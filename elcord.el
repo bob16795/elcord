@@ -35,16 +35,16 @@
   :prefix "elcord-"
   :group 'external)
 
-(defcustom elcord-client-id '"388338871475240965"
+(defcustom elcord-client-id '"779079195929083936"
   "ID of elcord client (Application ID).
 See <https://discordapp.com/developers/applications/me>."
-  :type '(choice (const :tag "'Native' Application ID" "388338871475240965")
+  :type '(choice (const :tag "'Native' Application ID" "779079195929083936")
                  (string :tag "Use the specified ID")
                  (function :tag "Call the function with no args to get the ID."))
   :group 'elcord)
 
 (defcustom elcord-icon-base
-  '"https://raw.githubusercontent.com/Mstrodl/elcord/master/icons/"
+  '"https://raw.githubusercontent.com/bob16795/elcord/master/icons/"
   "Base URL for icon images. Mode icons will be loaded from this URL + the icon name + '.png'"
   :type '(choice (const :tag "Elcord GitHub Repository"
                         "https://raw.githubusercontent.com/Mstrodl/elcord/master/icons/")
@@ -118,6 +118,7 @@ See <https://discordapp.com/developers/applications/me>."
                                     (terraform-mode . "terraform-mode_icon")
                                     (typescript-mode . "typescript-mode_icon")
                                     (zig-mode . "zig-mode_icon")
+                                    (slam-mode . "slam-mode_icon")
                                     ("^slime-.*" . "lisp-mode_icon")
                                     ("^sly-.*$" . "lisp-mode_icon"))
   "Mapping alist of major modes to icon names to have elcord use.
