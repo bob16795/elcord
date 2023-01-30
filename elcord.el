@@ -47,7 +47,7 @@ See <https://discordapp.com/developers/applications/me>."
   '"https://raw.githubusercontent.com/bob16795/elcord/master/icons/"
   "Base URL for icon images. Mode icons will be loaded from this URL + the icon name + '.png'"
   :type '(choice (const :tag "Elcord GitHub Repository"
-                        "https://raw.githubusercontent.com/Mstrodl/elcord/master/icons/")
+                        "https://raw.githubusercontent.com/bob16795/elcord/master/icons/")
                  (string :tag "Use the specified URL base")
                  (function :tag "Call the function with icon name as an arg to get the URL base."))
   :group 'elcord)
